@@ -9,7 +9,7 @@ services:
       dockerfile: ./docker/grafana/Dockerfile.grafana
     restart: unless-stopped
     ports:
-      - "3000:3000"
+      - "3078:3000"
     networks:
       - mesh-bridge
     volumes:
